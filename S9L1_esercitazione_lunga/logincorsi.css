@@ -1,0 +1,45 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#navlinks {
+    color: blue;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#testata, #login {
+    text-align: center;
+    color: blue;
+
+}
+
+div.arealogin {
+
+    margin: auto;
+    text-align: center;
+}
+
+#entra {
+    margin-top: 20px;
+    border-radius: 15px;
+    font-size: 1.5em;
+    box-shadow: 1px 4px;
+}
+
+i.fa {
+    margin-right: 30px;
+    margin-top: 30px;
+    color: blue;
+    font-size: 1.5em;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+#loading {
+    background-color: cornflowerblue;
+    width: 10px;
+    height: 40px;
+}

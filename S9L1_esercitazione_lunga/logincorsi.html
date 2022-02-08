@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Corsi</title>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script type="text/javascript" src="logincorsi.js"></script>
+    <link rel="stylesheet" href="logincorsi.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Corsetti</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navlinks">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="logincorsi.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="elencocorsi.html">Elenco</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="creacorso.html" tabindex="-1" aria-disabled="true">Crea il tuo
+                            corso</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- AREA LOGIN -->
+    <div class="arealogin">
+        <div id="testata">
+            <h2>ENTRA NELLA TUA AREA RISERVATA</h2>
+        </div>
+        <hr>
+        <form id="login">
+            <input type="text" id="user" placeholder="username"><br>
+            <input type="password" id="password" placeholder="password"><br>
+            <button type="button" id="entra">ENTRA</button>
+        </form>
+        <br>
+      <div class="container">  <div id="loading">&nbsp;</div></div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div class="container text-center">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+            <a href="#"><i class="fa fa-skype"></i></a>
+        </div>
+    </footer>
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-dark" href="http://psicologofedericorusso.blogspot.com/">Federico Russo</a>
+    </div>
+    <!-- Copyright -->
+    </footer>
+
+</body>
+
+</html>
